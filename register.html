@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Register — Ordinary Conference</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400"
+      rel="stylesheet"
+    />
+    <link href="assets/stylesheets/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header-wrapper">
+      <div class="container header-container">
+        <h1 class="logo-container">
+          <a class="logo" href="index.html">Ordinary<br />Conference</a>
+        </h1>
+        <p class="tagline">December 28&ndash;31, Wuz City, WY</p>
+        <div class="nav-container">
+          <nav class="header-nav">
+            <ul>
+              <li><a href="speakers.html">Speakers</a></li>
+              <li><a href="schedule.html">Schedule</a></li>
+              <li><a href="venue.html">Venue</a></li>
+              <li><a href="register.html">Register</a></li>
+            </ul>
+          </nav>
+          <button class="open-menu"><span></span></button>
+        </div>
+      </div>
+    </header>
+    <!-- Main content -->
+    <section class="hero-alt-wrapper">
+      <div class="container hero-container">
+        <h2>Register</h2>
+        <p>
+          Every year we aim to have an unbelievable time, and this year we’d
+          love it for you to join us. Conference passes cost $100 only, one of
+          the best values you’ll find.
+        </p>
+      </div>
+    </section>
+    <div class="details-wrapper">
+      <div class="container registration-details-container">
+        <div class="registration-details">
+          <section class="registration-blurb">
+            <h2 class="registration-blurb-title">
+              Purchase a Conference&nbsp;Pass
+            </h2>
+            <p class="registration-blurb-tagline">$100 PER PASS</p>
+            <p class="registration-blurb-instruction">
+              Fill out our registration form to purchase entry passes to the
+              Ordinary Conference. Multiple passes can be included in one order,
+              so buy for your friends and colleagues as well. Once you have paid
+              for your order, we’ll follow up and provide a receipt for your
+              purchase.
+            </p>
+            <h3 class="registration-blurb-subtitle">Why Attend?</h3>
+            <ul class="registration-blurb-list">
+              <li class="registration-blurb-list-item">
+                Learn from over twenty world-class speakers
+              </li>
+              <li class="registration-blurb-list-item">
+                Remain focused with four days of workshops and presentations
+              </li>
+              <li class="registration-blurb-list-item">
+                Enjoy a sublime and comfy venue — The Wuz Club
+              </li>
+            </ul>
+          </section>
+          <form class="registration-form" action="#" method="POST">
+            <h3 class="registration-form-title">Registration Form</h3>
+            <fieldset class="form-fields-group">
+              <label class="form-field-label"
+                >Name
+                <input
+                  class="form-field-input"
+                  type="text"
+                  name="name"
+                  placeholder="Octavio Zorfman"
+                  required
+              /></label>
+              <label class="form-field-label"
+                >Email
+                <input
+                  class="form-field-input"
+                  type="email"
+                  name="email"
+                  placeholder="octavio@email.com"
+                  required
+              /></label>
+              <label class="form-field-label"
+                >Number of Passes
+                <select class="form-field-select" name="quantity" required>
+                  <option value="">Select</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                </select>
+              </label>
+              <label class="form-field-label"
+                >Comments
+                <textarea class="form-field-textarea" name="comments"></textarea
+              ></label>
+            </fieldset>
+            <input
+              class="btn btn-default"
+              type="submit"
+              name="submit"
+              value="Purchase"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="footer-wrapper">
+      <div class="container footer-container">
+        <small>&copy; Ordinary Conference</small>
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="speakers.html">Speakers</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="venue.html">Venue</a></li>
+            <li><a href="register.html">Register</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
